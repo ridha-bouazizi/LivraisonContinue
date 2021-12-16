@@ -12,13 +12,6 @@ pipeline
 					}
 				}
 			}
-			stage('install'){
-				steps{
-					script{
-						sh "npm install"
-					}
-				}
-			}
 			stage('build'){
 				steps{
 					script{
