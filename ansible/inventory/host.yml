@@ -1,8 +1,8 @@
 localhost ansible_connection=local
 [servers]
-localhost ansible_sudo_pass=root
+localhost
 
 [all:vars]
 ansible_python_interpreter=/usr/bin/python3
 ansi_user=linux2
-
+ansible_sudo_pass=root
